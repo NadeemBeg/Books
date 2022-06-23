@@ -1,0 +1,255 @@
+{
+	"id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+	"name": "books copy",
+	"description": "",
+	"order": [
+		"c2308125-3f6e-16a1-ac9f-70325b014d4e",
+		"6762dc8b-bdf0-2a5a-0e1c-19300a8d4239",
+		"0f5b5ad0-b008-8bda-9bad-1dcab97f7006",
+		"6b6b277d-adf7-88ac-6e4f-c8830ce9c32f",
+		"988cc518-7454-155c-5465-831a150b660f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"requests": [
+		{
+			"id": "0f5b5ad0-b008-8bda-9bad-1dcab97f7006",
+			"headers": "Authorization: Basic Qm9vazpCb29rQDEyMw==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic Qm9vazpCb29rQDEyMw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/findAllBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"data": null,
+			"dataMode": "params",
+			"name": "findAllBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655974098479,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5"
+		},
+		{
+			"id": "6762dc8b-bdf0-2a5a-0e1c-19300a8d4239",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Qm9vazpCb29rQDEyMw==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Qm9vazpCb29rQDEyMw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/getOneBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "getOneBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655974086828,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"rawModeData": "{\n\t\"id\":\"62b4049ead80c4b9389185a8\"\n}"
+		},
+		{
+			"id": "6b6b277d-adf7-88ac-6e4f-c8830ce9c32f",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Qm9vazpCb29rQDEyMw==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Qm9vazpCb29rQDEyMw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/deleteBook",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "deleteBook",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655974110226,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"rawModeData": "{\n\t\"id\":\"62b4047683a919eaadc0641c\"\n}"
+		},
+		{
+			"id": "988cc518-7454-155c-5465-831a150b660f",
+			"headers": "Authorization: Basic Qm9vazpCb29rQDEyMw==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic Qm9vazpCb29rQDEyMw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/updateBookdetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"data": [
+				{
+					"key": "uploadBookImage",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "AP1",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "author",
+					"value": "AP12",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "pages",
+					"value": "300123",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "price",
+					"value": "2001234",
+					"description": ""
+				},
+				{
+					"key": "id",
+					"value": "62b4047683a919eaadc0641c",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "updateBookdetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655974123662,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5"
+		},
+		{
+			"id": "c2308125-3f6e-16a1-ac9f-70325b014d4e",
+			"headers": "Authorization: Basic Qm9vazpCb29rQDEyMw==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic Qm9vazpCb29rQDEyMw==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/bookCreate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0c6f9659-8fb5-42dd-8316-bad1831af6e5",
+			"data": [
+				{
+					"key": "uploadBookImage",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Nadem",
+					"description": ""
+				},
+				{
+					"key": "author",
+					"value": "NDMAP",
+					"description": ""
+				},
+				{
+					"key": "pages",
+					"value": "30",
+					"description": ""
+				},
+				{
+					"key": "price",
+					"value": "20",
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "bookCreate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1655974072546,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collection_id": "0c6f9659-8fb5-42dd-8316-bad1831af6e5"
+		}
+	],
+	"timestamp": 1655974514981,
+	"syncedFilename": "",
+	"public": false,
+	"owner": 0
+}
